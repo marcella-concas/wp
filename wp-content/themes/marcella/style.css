@@ -1,3 +1,41 @@
-body{
-	
-}	
+/* form style */
+.concas-form{
+	padding: 12px 200px 12px 200px;
+}
+.concas-form textarea{
+	height: 108px;
+}
+.Benvenuti {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgba(256, 256, 256, 0.85);
+    padding: 120px;
+    text-align: center;
+}
+.jumbotron{
+	background: url("./images/bg1.jpg") no-repeat ;
+	background-size: cover;
+	min-height: 800px;
+}
+.navbar-brand{
+	background: url("./images/logo.jpg") no-repeat;
+	width: 100px;
+}
+.navbar-default{
+	background: transparent;
+	border-color: transparent;: 
+}
+
+
+@media (max-width: 750px) {
+    .navbar-default .navbar-collapse {       
+    	background-color: rgba(0, 0, 0, 0.6);
+        border-color: transparent;
+    }
+    .navbar-default .navbar-nav>li>a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600px;
+	text-align: center;
+}
+      
+    }
