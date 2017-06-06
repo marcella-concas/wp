@@ -5,8 +5,8 @@
 	<h4>Qui troverete tutti i dettagli riguardanti la manifestazione </h4>
 </div>
 </div>
-</div>
-</div>
+
+
 <!--form begin-->
 <div class="container-fluid">
 	<div class="row text-center">
