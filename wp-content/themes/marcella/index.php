@@ -1,8 +1,8 @@
  <?php get_header(); ?>
  <div class="row">
  	<div class="col-md-12 Benvenuti">
- 		<h1>Siete invitati a Natura in festa</h1>
- 		<h4>Qui troverete tutti i dettagli riguardanti la manifestazione </h4>
+ 	<h1><?php bloginfo(name) ?></h1>
+ 		<h4><?php bloginfo(description) ?> </h4>
  	</div>
  </div>
 
