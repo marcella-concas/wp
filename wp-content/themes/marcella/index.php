@@ -10,6 +10,21 @@
  <!--form begin-->
  
  	<div class="row text-center" id="mymenu">
+ 		<?php
+                $args = array(
+                    'page_id' => '8' // the id of your page
+                );
+                $wp_query = new WP_Query($args);
+                if($wp_query->have_posts()) :
+                    while ($wp_query->have_posts()) :
+                        $wp_query->the_post();
+                      ?>
+                      <h1><?php the_title(); ?></h1>
+                      <h2><?php the_content(); ?></h2>
+                      <?php
+                    endwhile;
+                endif;
+ ?>
 
 
   </div>
