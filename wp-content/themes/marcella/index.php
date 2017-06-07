@@ -8,29 +8,35 @@
 
 
  <!--form begin-->
- 
- 	<div class="row text-center" id="mymenu">
- 		<?php
-                $args = array(
-                    'page_id' => '8' // the id of your page
-                );
-                $wp_query = new WP_Query($args);
-                if($wp_query->have_posts()) :
-                    while ($wp_query->have_posts()) :
-                        $wp_query->the_post();
-                      ?>
-                      <h1><?php the_title(); ?></h1>
-                      <h2><?php the_content(); ?></h2>
-                      <?php
-                    endwhile;
-                endif;
- ?>
+ <div class="container-fluid">
+ 	<div class="row text-center">
+ 		<h1>Contattaci</h1>
+ 		<h3>Scrivi i tuoi dati negli appositi spazi</h3>
+ 	</div>
+ </div>
 
+ <form class="concas-form">
+ 	<div class="row">
 
-  </div>
-  <div class="row form-row">
-    <form>
-      <?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]'); ?>
+ 		<div class="col-md-6">
+ 			<div class="form-group">
+ 				<label for="exampleInputEmail1">Email</label>
+ 				<input type="email" class="form-control" id="exampleInputEmail1" placeholder=" Digita qui la tua Email" required autofocus="">
+ 			</div>
+ 			<div class="form-group">
+ 				<label for="exampleInputPassword1"> Password</label>
+ 				<input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Digita qui la tua Password" required>
+ 			</div>
+ 		</div>
+
+ 		<div class="col-md-6">
+ 			<label for="exampleInputEmail1">Scrivi un commento</label>
+ 			<textarea class="form-control" rows="3" required></textarea>
+ 		</div>
+
+ 	</div>
+ 	<div class="row text-center">
+ 		<button type="submit" class="btn btn-default">Submit</button>
  	</form>
  </div>
 </div> 
