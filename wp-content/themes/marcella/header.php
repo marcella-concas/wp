@@ -28,6 +28,7 @@
 							<li><a href="#">luoghi</a></li>
 							<li><a href="#">saperi</a></li>
 							<li><a href="#">attrazioni</a></li>
+							<li><a href="#contact">contattaci</a></li>
 
 						</ul>
 

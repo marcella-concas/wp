@@ -9,7 +9,7 @@
 
  <!--form begin-->
  <div class="container-fluid">
- 	<div class="row text-center">
+ 	<div class="row text-center" id="contact">
  		<h1>Contattaci</h1>
  		<h3>Scrivi i tuoi dati negli appositi spazi</h3>
  	</div>
